@@ -1,4 +1,4 @@
-import styles from '../styles/ContactCode.module.css';
+import styles from "../styles/ContactCode.module.css";
 
 const contactItems = [
   // {
@@ -7,29 +7,29 @@ const contactItems = [
   //   href: 'https://nitinranganath.me',
   // },
   {
-    social: 'email',
-    link: 'nitinranganath@gmail.com',
-    href: 'mailto:nitinranganath@gmail.com',
+    social: "email",
+    link: "nouamane.elhouni.2002@gmail.com",
+    href: "mailto:nouamane.elhouni.2002@gmail.com",
   },
   {
-    social: 'github',
-    link: 'itsnitinr',
-    href: 'https://github.com/itsnitinr',
+    social: "github",
+    link: "NouamaneELHOUNI",
+    href: "https://github.com/NouamaneELHOUNI",
   },
-  {
-    social: 'linkedin',
-    link: 'nitinranganath',
-    href: 'https://www.linkedin.com/in/nitinranganath/',
-  },
+  // {
+  //   social: "linkedin",
+  //   link: "nitinranganath",
+  //   href: "https://www.linkedin.com/in/nitinranganath/",
+  // },
   // {
   //   social: 'twitter',
   //   link: 'iamnitinr',
   //   href: 'https://www.twitter.com/iamnitinr',
   // },
   {
-    social: 'instagram',
-    link: 'iamnitinr',
-    href: 'https://www.instagram.com/iamnitinr',
+    social: "instagram",
+    link: "r8d.en",
+    href: "https://www.instagram.com/r8d.en",
   },
   // {
   //   social: 'polywork',
@@ -61,7 +61,7 @@ const ContactCode = () => {
       </p>
       {contactItems.slice(0, 8).map((item, index) => (
         <p className={styles.line} key={index}>
-          &nbsp;&nbsp;&nbsp;{item.social}:{' '}
+          &nbsp;&nbsp;&nbsp;{item.social}:{" "}
           <a href={item.href} target="_blank" rel="noopener">
             {item.link}
           </a>
@@ -70,7 +70,7 @@ const ContactCode = () => {
       ))}
       {contactItems.slice(8, contactItems.length).map((item, index) => (
         <p className={styles.line} key={index}>
-          &nbsp;&nbsp;{item.social}:{' '}
+          &nbsp;&nbsp;{item.social}:{" "}
           <a href={item.href} target="_blank" rel="noopener">
             {item.link}
           </a>

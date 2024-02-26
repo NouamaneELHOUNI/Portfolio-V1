@@ -7,6 +7,7 @@ import PencilIcon from "./icons/PencilIcon";
 import MailIcon from "./icons/MailIcon";
 import AccountIcon from "./icons/AccountIcon";
 import SettingsIcon from "./icons/SettingsIcon";
+import Info from "./icons/Info";
 import styles from "../styles/Sidebar.module.css";
 
 const sidebarTopItems = [
@@ -14,9 +15,17 @@ const sidebarTopItems = [
     Icon: FilesIcon,
     path: "/",
   },
+  // {
+  //   Icon: GithubIcon,
+  //   path: "/github",
+  // },
   {
-    Icon: GithubIcon,
-    path: "/github",
+    Icon: Info,
+    path: "/about",
+  },
+  {
+    Icon: MailIcon,
+    path: "/contact",
   },
   {
     Icon: CodeIcon,
@@ -26,10 +35,6 @@ const sidebarTopItems = [
   //   Icon: PencilIcon,
   //   path: '/articles',
   // },
-  {
-    Icon: MailIcon,
-    path: "/contact",
-  },
 ];
 
 const sidebarBottomItems = [
